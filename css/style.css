@@ -77,6 +77,11 @@ color:#7fff8e;
 padding-top:130px;
 min-height:100vh;
 }
+.booksec
+{
+ padding-top:90px;
+min-height:100vh;   
+}
 .why, .discount
 {
       margin-top:50px;
@@ -112,7 +117,7 @@ line-height:60px !important;
     margin-right: auto;
     margin-left: auto;
 }
-.why h4, .discount h4
+.why h4, .discount h4, .quote h1
 {
    font-family: 'Poppins', sans-serif;
 font-size:26px;
@@ -325,4 +330,47 @@ cursor:pointer;
 padding:30px 10px;
 color:#ffffff;
 background-color:#000000;
+}
+
+
+
+/*map*/
+#map {
+     min-height:550px;
+    height:auto;
+       position:fixed;
+          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+
+
+.quote
+{
+    background-color:#F6F6F6;
+    padding:20px !important;
+}
+.fare
+{
+    margin-top:30px;
+}
+.fare tr:hover
+{
+       cursor: pointer;
+    padding:5px !important;
+    background-color:#E2E2E2;
+}
+.fare th
+{
+    font-size:17px;
+    font-family: 'Poppins', sans-serif;
+}
+.fare td
+{
+ 
+    padding:15px 5px;
+     font-size:16px;
+    font-family: 'Poppins', sans-serif;
+}
+.fare td:first-child
+{
+    margin-top:10px;
 }

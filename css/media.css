@@ -44,7 +44,7 @@ width:100%;
 
 /*media query for mobile*/
 @media only screen and (max-width: 428px) {
-.book h1, .why h1, .feature h2, .fleet h1, .discount h1
+.book h1, .why h1, .feature h2, .fleet h1, .discount h1, .booksec h1
 {
  font-family: 'Poppins', sans-serif;
 font-size:24px !important;

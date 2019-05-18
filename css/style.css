@@ -342,15 +342,44 @@ background-color:#000000;
           box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
       }
 
-
+.inputWithIcon input[type="text"] {
+    padding-left: 40px;
+}
+.inputWithIcon {
+    position: relative;
+}
+.inputWithIcon i {
+    position: absolute;
+    top: 15px;
+    left:480px;
+    font-size:20px;
+    padding: 9px 10px;
+    color: #000000;
+    transition: 0.3s;
+}
 .quote
 {
     background-color:#F6F6F6;
     padding:20px !important;
 }
+.quote p
+{
+  font-size:14px;
+    letter-spacing: 0.5px;
+    font-family: 'Poppins', sans-serif;
+    padding:10px;
+    color:#000000;
+    line-height: 30px;
+    background-color:#5df7b4;
+}
 .fare
 {
     margin-top:30px;
+}
+.fare th:hover
+{
+      cursor: pointer;
+    background-color:transparent;
 }
 .fare tr:hover
 {

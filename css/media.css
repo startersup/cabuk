@@ -86,6 +86,27 @@ letter-spacing:0.3px;
 padding-top:80px;
  min-height:auto;   
 }
+    .buttontime {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+    .button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #5df7b4;
+}
+
+.button4:hover {background-color: #e7e7e7;}
     .feature
     {
         padding-top:80px;

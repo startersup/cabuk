@@ -117,7 +117,7 @@ line-height:60px !important;
     margin-right: auto;
     margin-left: auto;
 }
-.why h4, .discount h4, .quote h1
+.why h4, .discount h4, .quote h1, .booksec h3
 {
    font-family: 'Poppins', sans-serif;
 font-size:26px;
@@ -260,6 +260,27 @@ input[type="password"] {
   cursor: pointer;
  font-family: 'Poppins', sans-serif;
 }
+.buttontime {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button4 {
+  background-color:transparent;
+  color: black;
+  border: 2px solid #a0a0a0;
+}
+
+.button4:hover {background-color: #e7e7e7;}
 
 .card {
   transition: 0.3s;
@@ -402,4 +423,55 @@ background-color:#000000;
 .fare td:first-child
 {
     margin-top:10px;
+}
+
+.infotab {
+    padding: 10px 20px;
+}
+.selectit {
+    width: 100%;
+    min-height: 45px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    background-color: #E2E2E2;
+}
+.infotab table td:first-child {
+    font-weight: 700;
+}
+
+.infotab table td {
+    padding:8px;
+    font-size: 14px;
+    font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+}
+.textarea {
+    width: 100%;
+    padding: 12px 20px;
+    min-height: 45px;
+    margin: 8px 0;
+    min-height: 100px;
+    color: #000000;
+    box-sizing: border-box;
+    background-color: #E2E2E2;
+      font-family: 'Poppins', sans-serif;
+}
+.quoter p
+{
+    font-size:14px;
+    line-height:25px;
+   font-family: 'Poppins', sans-serif; 
+}
+.quoter {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #F6F6F6;
+}
+.infotab label
+{
+      font-size:14px;
+    font-weight:600;
+    font-family: 'Poppins', sans-serif; 
 }

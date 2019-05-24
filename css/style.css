@@ -58,7 +58,7 @@ background-color:#ffffff !important;
 .navbar-brand
 {
 color:#ffffff !important;
-font-size:22px !important;
+font-size:25px !important;
     padding:25px 20px !important;
 font-family: 'Poppins', sans-serif;
 font-weight:600;
@@ -373,10 +373,10 @@ background-color:#000000;
 .inputWithIcon i {
     position: absolute;
     top: 15px;
-    left:480px;
+    left:0px;
     font-size:20px;
     padding: 9px 10px;
-    color: #000000;
+       color: #aaa;
     transition: 0.3s;
 }
 .quote

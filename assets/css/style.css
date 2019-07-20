@@ -129,6 +129,14 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     text-align: left;
     font-family: 'Poppins', sans-serif;
 }
+.fare tr:first-child
+{
+    background-color: #E2E2E2;
+}
+.fare tr:first-child:hover
+{
+    background-color: #E2E2E2;
+}
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
     color: #555;
     background-color: transparent !important;
@@ -501,7 +509,7 @@ background-color:#000000;
 {
        cursor: pointer;
     padding:5px !important;
-    background-color:#E2E2E2;
+    background-color:#eee;
 }
 .fare th
 {

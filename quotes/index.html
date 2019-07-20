@@ -5,18 +5,21 @@ author:saicharan-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <title>Quote | Taxego | Taxis and Minicab Quote Compare !</title>
+  <title>Taxego | Taxis and Minicab Quote Compare !</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="icon" href="../images/automobile.png" type="image/gif" sizes="16x16"> 
- <link rel="stylesheet" href="../css/style.css">
- <link rel="stylesheet" href="../css/media.css">
-<script src="../script/auto.js"></script>
+ <link rel="icon" href="../assets/images/automobile.png" type="image/gif" sizes="16x16"> 
+ <link rel="stylesheet" href="../assets/css/style.css">
+ <link rel="stylesheet" href="../assets/css/media.css">
+<script src="../assets/script/auto.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.4/jquery.datetimepicker.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.4/build/jquery.datetimepicker.full.min.js"></script>
 </head>
 <body>
 
@@ -28,22 +31,22 @@ author:saicharan-->
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="../">Taxe<span>GO</span></a>
+     <a class="navbar-brand" href="../">Taxe<span>GO</span></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-centered">
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">SERVICES <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#"><img src="../images/icons/airplane.png"> AIRPORT TRANSFERS</a></li>
-            <li><a href="#"><img src="../images/icons/train.png"> TRAIN STATION TRANSFERS</a></li>
-            <li><a href="#"><img src="../images/icons/ship.png"> CRUISE TRANSFERS</a></li>
-            <li><a href="#"><img src=".."> SCHOOL TRANSFERS</a></li>
-             <li><a href="#"><img src="../images/icons/bank.png"> CORPORATE TRANSFERS</a></li>
+            <li><a href="#"><img src="../assets/images/icons/airplane.png"> AIRPORT TRANSFERS</a></li>
+            <li><a href="#"><img src="../assets/images/icons/train.png"> TRAIN STATION TRANSFERS</a></li>
+            <li><a href="#"><img src="../assets/images/icons/ship.png"> CRUISE TRANSFERS</a></li>
+            <li><a href="#"><img src="../assets/images/icons/school.png"> SCHOOL TRANSFERS</a></li>
+             <li><a href="#"><img src="../assets/images/icons/bank.png"> CORPORATE TRANSFERS</a></li>
           </ul>
         </li>
-        <li><a href="../partners/">TAXI PARTNERS</a></li>
-        <li><a href="index.html#discount">DISCOUNTS</a></li>
+        <li><a href="./partners/">TAXI PARTNERS</a></li>
+        <li><a href="#discount">DISCOUNTS</a></li>
    <li><a href="#">BLOG</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -57,49 +60,161 @@ author:saicharan-->
 <!--mainsection-->
 <div class="booksec container">
 <div class="row">
-<div class="col-md-6 col-sm-6">
+<div class="col-md-6 col-sm-6 nopadding">
 <div class="quote">
     <h1>Fare Estimator</h1>
-<table style="width:100%" class="fare">
+    <br>
+<ul class="nav nav-pills">
+    <li class="active"><a data-toggle="pill" href="#home"><img  data-toggle="tooltip"  title="saloon car" class="smallimg tool_tip" src="../assets/images/car1.png"><br><center>Saloon</center></a></li>
+    <li><a data-toggle="pill"  href="#menu1"><img  data-toggle="tooltip" title="Estate Car" class="smallimg" src="../assets/images/car2.png"><br><center>Estate</center></a></li>
+    <li><a data-toggle="pill" href="#menu2"><img  data-toggle="tooltip" title="MPV Car" class="smallmedimg" src="../assets/images/car3.png"><br><center class="up">MPV</center></a></li>
+    <li><a data-toggle="pill" href="#menu3"><img  data-toggle="tooltip" title="7-9 Seater" class="smallimg" src="../assets/images/car4.png"><br><center>Minibus</center></a></li>
+  </ul>
+ <div class="tab-content">
+    <div id="home" class="tab-pane fade in active" >
+   <table style="width:100%" class="fare">
   <tr>
-    <th style="width:80%">Cab Type</th>
+    <th style="width:80%">Taxi Provider List</th>
     <th style="width:20%">Fare</th>
   </tr>
+       <br>
   <tr data-toggle="collapse" data-target="#demo">
-    <td>Saloon Car<br><small>4 x Passengers - 2 x Luggages</small></td>
+    <td>Britannia Cars<br><small> ( 21 Reviews )</small></td>
     <td>£56</td>
 
   </tr>
     
   <tr>
-    <td >Estate Car<br><small>4 x Passengers - 3 x Luggages</small> </td>
+    <td >Atlas Cars Lts<br><small>( 13 Reviews )</small> </td>
     <td >£67</td>
   </tr>
       <tr>
-    <td >Executive Saloon Car<br><small>4 x Passengers - 2 x Luggages</small></td>
-    <td >£72</td>
+    <td >Atlas Cars Lts<br><small>( 13 Reviews )</small> </td>
+    <td >£67</td>
+  </tr>
+         <tr>
+    <td >Pickme Cars Lts<br><small>( 13 Reviews )</small> </td>
+    <td >£67</td>
+  </tr>
+         <tr>
+    <td >Stanley Cars Lts<br><small>( 13 Reviews )</small> </td>
+    <td >£67</td>
+  </tr>
+         <tr>
+    <td >Atlas Cars Lts<br><small>( 13 Reviews )</small> </td>
+    <td >£67</td>
+  </tr>
+</table>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+   <table style="width:100%" class="fare">
+  <tr>
+    <th style="width:80%">Taxi Provider List</th>
+    <th style="width:20%">Fare</th>
+  </tr>
+       <br>
+  <tr data-toggle="collapse" data-target="#demo">
+    <td>Britannia Cars<br><small> ( 21 Reviews )</small></td>
+    <td>£56</td>
+
+  </tr>
+    
+  <tr>
+    <td >Atlas Cars Lts<br><small>( 13 Reviews )</small> </td>
+    <td >£67</td>
   </tr>
       <tr>
-    <td >People Career  MPV-4 <br><small>4 x Passengers - 6 x Luggages</small></td>
-    <td >£84</td>
-  </tr>
-     <tr>
-    <td >People Career 7 Seater<br><small>6 x Passengers - 2 x Luggages</small></td>
-    <td >£105</td>
+    <td >Atlas Cars Lts<br><small>( 13 Reviews )</small> </td>
+    <td >£67</td>
   </tr>
          <tr>
-    <td >People Career 8 Seater <br><small>7 x Passengers - 7 x Luggages</small></td>
-    <td >£125</td>
+    <td >Pickme Cars Lts<br><small>( 13 Reviews )</small> </td>
+    <td >£67</td>
   </tr>
          <tr>
-    <td >People Career 9 Seater <br><small>8 x Passengers - 8 x Luggages</small></td>
-    <td >£145</td>
+    <td >Stanley Cars Lts<br><small>( 13 Reviews )</small> </td>
+    <td >£67</td>
   </tr>
-</table><br>
-    
+         <tr>
+    <td >Atlas Cars Lts<br><small>( 13 Reviews )</small> </td>
+    <td >£67</td>
+  </tr>
+</table>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+       <table style="width:100%" class="fare">
+  <tr>
+    <th style="width:80%">Taxi Provider List</th>
+    <th style="width:20%">Fare</th>
+  </tr>
+       <br>
+  <tr data-toggle="collapse" data-target="#demo">
+    <td>Britannia Cars<br><small> ( 21 Reviews )</small></td>
+    <td>£56</td>
 
-    <p><b>Note:</b> The Fare Estimated is fixed even if there is any delay due to traffic, natural calamities and other factors.</p>
-    </div></div>
+  </tr>
+    
+  <tr>
+    <td >Atlas Cars Lts<br><small>( 13 Reviews )</small> </td>
+    <td >£67</td>
+  </tr>
+      <tr>
+    <td >Atlas Cars Lts<br><small>( 13 Reviews )</small> </td>
+    <td >£67</td>
+  </tr>
+         <tr>
+    <td >Pickme Cars Lts<br><small>( 13 Reviews )</small> </td>
+    <td >£67</td>
+  </tr>
+         <tr>
+    <td >Stanley Cars Lts<br><small>( 13 Reviews )</small> </td>
+    <td >£67</td>
+  </tr>
+         <tr>
+    <td >Atlas Cars Lts<br><small>( 13 Reviews )</small> </td>
+    <td >£67</td>
+  </tr>
+</table>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+        <table style="width:100%" class="fare">
+  <tr>
+    <th style="width:80%">Taxi Provider List</th>
+    <th style="width:20%">Fare</th>
+  </tr>
+       <br>
+  <tr data-toggle="collapse" data-target="#demo">
+    <td>Britannia Cars<br><small> ( 21 Reviews )</small></td>
+    <td>£56</td>
+
+  </tr>
+    
+  <tr>
+    <td >Atlas Cars Lts<br><small>( 13 Reviews )</small> </td>
+    <td >£67</td>
+  </tr>
+      <tr>
+    <td >Atlas Cars Lts<br><small>( 13 Reviews )</small> </td>
+    <td >£67</td>
+  </tr>
+         <tr>
+    <td >Pickme Cars Lts<br><small>( 13 Reviews )</small> </td>
+    <td >£67</td>
+  </tr>
+         <tr>
+    <td >Stanley Cars Lts<br><small>( 13 Reviews )</small> </td>
+    <td >£67</td>
+  </tr>
+         <tr>
+    <td >Atlas Cars Lts<br><small>( 13 Reviews )</small> </td>
+    <td >£67</td>
+  </tr>
+</table>
+    </div>
+  </div>
+</div>
+</div>
+
 <div class="col-md-6 col-sm-6">
     
     <div id="map"></div>

@@ -114,6 +114,20 @@ padding-top:80px;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
 }
+    .fare td:first-child {
+    margin-top: 20px;
+}
+.fare>tbody>tr>td {
+    margin: 2px;
+    padding: 15px 10px;
+    font-weight:500;
+}
+.fare td, .fare th {
+    padding: 15px 5px;
+    font-size: 15px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
     .up
     {
         margin-top:-10px;
